@@ -1,0 +1,13 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.btnLogin {
+    margin-top: 10px;
+    color: green;
+}
+
+.h2Center{
+    margin-top:20%;
+}
