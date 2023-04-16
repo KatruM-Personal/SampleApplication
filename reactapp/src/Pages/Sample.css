@@ -11,3 +11,8 @@ body {
 .h2Center{
     margin-top:20%;
 }
+
+.errorText{
+    color:red;
+    font-weight:bold;
+}

@@ -29,7 +29,7 @@ namespace SampleAPI.Controllers
                 var token = await _dashboardRepository.GetEmail(model.Email);
                 return Ok(new { Token = token });
             }
-            return NotFound("Please enter valid Email of your choice");
+            return NotFound(new { message = "Please enter valid Email of your choice" });
         }
 
         private static bool IsValidEmail(string email)
