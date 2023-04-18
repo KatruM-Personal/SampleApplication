@@ -44,7 +44,7 @@ namespace SampleAPI.Repositories
 
         }
 
-        public async Task<List<Practice>> GetDetails()
+        public List<Practice> GetDetails()
         {
             var connectionString = "Server=DESKTOP-86EN9CI;Database=Practice;User Id=sa;Password=123;TrustServerCertificate=True";
             using var connection = new SqlConnection(connectionString);

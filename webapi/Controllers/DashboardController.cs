@@ -41,9 +41,9 @@ namespace SampleAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<List<Practice>> GetDetails()
+        public List<Practice> GetDetails()
         {
-            var data = await _dashboardRepository.GetDetails();
+            var data = _dashboardRepository.GetDetails();
             return data;
         }
     }
