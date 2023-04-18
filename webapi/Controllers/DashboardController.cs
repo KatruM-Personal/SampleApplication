@@ -7,6 +7,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Text.RegularExpressions;
+using webapi;
 using webapi.Models;
 
 namespace SampleAPI.Controllers
@@ -37,6 +38,13 @@ namespace SampleAPI.Controllers
             string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             Regex regex = new Regex(pattern);
             return regex.IsMatch(email);
+        }
+
+        [HttpGet]
+        public async Task<List<Practice>> GetDetails()
+        {
+            var data = await _dashboardRepository.GetDetails();
+            return data;
         }
     }
 }
