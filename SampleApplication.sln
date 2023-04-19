@@ -7,6 +7,8 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactapp", "reactapp\reacta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "webapi\webapi.csproj", "{2EE8DDCF-C171-409F-8F96-910955AE4A8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTestProject", "SampleTestProject\SampleTestProject.csproj", "{E41D1488-71DA-44C1-BBE9-F87CE6595954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{2EE8DDCF-C171-409F-8F96-910955AE4A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE8DDCF-C171-409F-8F96-910955AE4A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EE8DDCF-C171-409F-8F96-910955AE4A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41D1488-71DA-44C1-BBE9-F87CE6595954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41D1488-71DA-44C1-BBE9-F87CE6595954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41D1488-71DA-44C1-BBE9-F87CE6595954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41D1488-71DA-44C1-BBE9-F87CE6595954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
